@@ -1,0 +1,140 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html ="en">
+  <head></head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <body>
+    <main id="main-doc">
+      <section id="football" class="main-section">
+        <header>Football</header>
+        
+          <p>American football was invented in 1882, making it only 136 years old. While it's still an impressive age, this is nothing compared to the age of soccer: it was invented in the 5th century B.C. in China. </p>
+          <p>Football was founded after rugby rules were modified to accommodate gameplay, but during its advent, it was played more like soccer: players could only kick at the ball and hit it with their hands, hence the name of the game</p></li>
+        <p>Famous players  
+        <ul>
+          <li>Tom Brady</li>
+          <li>Lawerence Taylor</li>
+        </ul>
+        <code>print("football")</code>
+      </section>
+
+      <section id="soccer" class="main-section">
+       <header>Soccer</header> 
+        
+          <p>Soccer is the most popular sport in the world, with an estimated 250 million players in more than 200 countries. However, it's not as popular in the United States as it is in other parts of the world. </p></li>
+          <p>Traditional soccer balls have 32 panels, 12 of which are five-sided and 20 of which are six-sided. They are also slightly oval-shaped, but the checkerboard pattern creates the illusion of a perfect sphere. The first soccer nets were made from wicker baskets.</p>
+          <p>Famous players</p>
+        <ul> 
+          <li>Cristiano Ronaldo</li> 
+          <li>Lionel Messi</li>
+        </ul>
+        <code>print("soccer")</code>
+      </section>
+      <section id="basketball" class="main-section">
+        <header>Basketball</header>
+        <p>The first basketball hoops were peach baskets tied to balconies, and the first backboards were made of wire. Naismith removed the bottom of the baskets so the ball would fall through more easily, and string baskets were introduced in 1900. Backboards were later added to prevent spectators from blocking shots. </p>
+          <p>Dribbling was not initially allowed, and referees kept time with watches. The 24-second shot clock was introduced in 1954 to prevent NBA teams from stalling. 
+</p>
+      <ul>
+        <li>Michael Jordan</li>
+        <li>Lebron James</li>
+      </ul>
+      <code>print("basketball")</code>
+      </section>
+      <section id="cricket" class="main-section">
+        <header>Cricket</header>
+        <p>Cricket is believed to have originated in southeast England as early as the 13th century, when boys may have bowled at a tree stump or hurdle gate into a sheep pen. The name "cricket" may come from the Middle Dutch word krick(-e), which means "stick", or the Old English words cricc or cryce, which mean "crutch" or "staff". </p>
+          <p>The International Cricket Council sets the rules for cricket, which is played between two teams of eleven players on a field with a 22-yard pitch and wickets at each end. One team, the batters, try to score runs, while the other team, the fielders, try to prevent them from doing so. Cricket is a team sport that requires coordination, teamwork, and communication.
+</p>
+        <p>Famous players</p>
+        <ul>
+          <li>Virat Kohli</li>
+          <li>Sir Donald Bradman</li>
+        </ul>
+        <code>print("cricket")</code>
+
+      </section>
+      <section id="golf" class="main-section">
+        <header>Golf</header>
+        <p>Golf is believed to have originated in Scotland in the 15th century. The earliest mention of the game was in Edinburgh in 1457 when King James II banned it because he thought it was a distraction from archery practice. </p>
+          <p>The first golf balls were made of feathers wrapped in leather, replacing wooden balls that would get damaged when struck.</p>
+        <p>Famous players</p>
+        <ul>
+          <li>Tiger Woods</li>
+          <li> Scottie Scheffler </li>  
+        </ul>
+        <code>print("golf")</code> 
+      </section>
+      <nav class="navbar" id="navbar">
+        <header>Sports</header>
+        <a href="#football"class="nav-link">Football</a>
+         <a href="#soccer"class="nav-link">Soccer</a>
+  
+      <a href="#basketball"class="nav-link">Basketball</a>
+
+      <a href="#cricket"class="nav-link">Cricket</a>
+
+      <a href="#golf"class="nav-link">Golf</a>
+      </nav>
+      
+      </main>
+  </body>  
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+  .nav-link {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+  text-align:center;
+    padding: 14px 16px;
+  text-decoration: none;
+}
+
+ .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:#333;
+    overflow: hidden;
+    display:inline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main-section {
+            padding: 16px;
+            margin-top: 50px; 
+}                
+
+ .nav-link:hover {
+      background-color:#ddd;
+      color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+      width: 100%;
+      height: auto;
+      position: relative;
+      background-color:#333;
+      overflow: hidden;
+            }
+    .nav-link {
+        float: left;
+        text-align: center;
+        padding: 14px;
+        width: 33.33%; 
+  }
+}
+
+** end of undefined **
+

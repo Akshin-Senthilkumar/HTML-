@@ -1,0 +1,93 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="freeCodeCamp Accessibility Quiz practice project" />
+    <title>Cristiano Ronaldo</title>
+    <link rel="stylesheet" href="styles.css" />
+
+  </head> 
+  <body>
+    <main id="main">
+      <h1 id="title">Cristiano Ronaldo</h1>
+      <p>the man, the myth , the legend</p>
+      <div id="img-div">
+        <img id="image" src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTbyNyLxq6CsGjR7nhyJs0oRhnTSW0SUNYWnMnC-JSExpKha0bac6xzTufwCzAoqLed4J0zztdsnd0wy6U" alt="Cristiano in Al-Nasser colours">
+        <figcaption id="img-caption">
+        <p > Cristiano in Al-Nasser colours </p>
+        </figcaption>
+      </div>
+
+      <h2> Journey of Cristiano Ronaldo</h2>
+      <div id="tribute-info">
+        <p id="tribute-info">One of the key factors that have contributed to Ronaldo’s success is his natural talent and work ethic. The forward has a rare combination of speed, strength, and agility, which has allowed him to excel on the pitch. But he has also worked tirelessly to hone his skills and improve his game.
+
+Throughout his career, Ronaldo has demonstrated a relentless work ethic, both on and off the pitch. He spends hours each day practicing his skills. He is known for pushing himself to the limit to achieve his goals.
+
+Ronaldo has an unwavering belief in his ability to succeed. He refuses to let setbacks or failures get in his way, and often finds a way through.
+
+The 38-year-old is known for his intense focus on the game. He is always striving to improve his skills and performance. He is also a master of mental preparation, using visualization techniques and other strategies to stay focused on his ultimate goal.
+
+Ronaldo’s physical fitness and training regimen is another critical factor in his success. His dedication to fitness and his rigorous training routines is second to none. It’s kept him in top shape throughout his career – even as he nears his 40s!
+
+The Real Madrid and Manchester United legend’s training regimen includes a combination of cardio and strength training, as well as specialized exercises designed to improve his speed, agility, and balance. He also follows a strict diet and nutrition plan, which helps to fuel his body for peak performance.
+
+Ronaldo’s dedication to a healthy lifestyle is something that often goes under the radar but is something we feel has contributed to his successes over the years.
+
+CR7 focuses his diet on lean proteins, whole grains, and fresh fruits and vegetables. The Al Nassr skipper avoids processed foods and sugary drinks. He also prioritizes rest and recovery periods throughout the day.</p>
+
+
+        
+
+      </div>
+      <div>
+        <h3> Achievements</h3>
+        <ul>
+          <li>
+First male player in history to score a goal in five different World Cups</li>
+          <li>Portugal's all-time top international goalscorer.</li>
+          <li> Winner of the Ballon d'Or footballer of the year award five times (2008, 2013, 2014, 2016 and 2017)</li>
+          <li>European Golden Shoe four times (2007-08, 2010-11, 2013-14 and 2014-15).</li>
+          <li>UEFA Champions League top scorer x 7.</li> 
+         </ul>    
+      </div>
+      <p>To learn more about cristiano ronaldo's success. <a href ="https://m.allfootballapp.com/news/All/The-Secrets-to-Cristiano-Ronaldo%E2%80%99s-Success-A-Path-to-Greatness--Inspiration/3103008#:~:text=One%20of%20the%20key%20factors,skills%20and%20improve%20his%20game. "id="tribute-link" target="_blank">Click here</a></p>
+
+      
+
+
+    </main> 
+  </body    
+
+   
+
+** end of undefined **
+
+** start of undefined **
+
+h1,p,h2,h3{
+  text-align:center;
+}
+
+body {
+  background: #f5f6f7;
+  color: #1b1b32;
+  font-family: Helvetica;
+  margin: 0;
+}
+
+img{
+  display:block;
+  max-width:100%;
+  height:auto;
+  text-align:center;
+}
+
+
+
+
+** end of undefined **
+

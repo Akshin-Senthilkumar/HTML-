@@ -1,0 +1,152 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for your valuable time for letting us know what is best for you    
+    </p>
+    <form id="survey-form">
+      <fieldset>
+        <label  id="name-label">Name<input id="name" required type="text" placeholder="Enter you name"/></label>
+        <label id="email-label">Email<input  id="email" required  type= "email" placeholder="Enter your email"/></label>
+        <label  id="number-label">Enter your Number<input id="number" type="number" min="0000000000" max="9999999999" placeholder="Enter number"></label>
+      </fieldset>
+      <fieldset>
+      <label>
+        How happy are you??
+        <select id="dropdown">
+        <option> (select one)</option>
+        <option>Very Happy</option>
+        <option>Happy</option>
+        <option>Not Happy</option>
+        <option>Sad</option>
+        <option>Depressed</option>
+        <option>Don't Know</option>
+       </label> 
+       </fieldset>
+       <fieldset>
+  <legend>Are you mentally happy?</legend>
+  <label for="Yes"><input type="radio" name="mental" id="Yes" value="Yes" class="inline">Yes</label>
+  <label for="no"><input type="radio" name="mental" id="No" value="No" class="inline">No</label>
+</fieldset>
+
+  
+
+     
+       <fieldset>
+      <legend> Which of the activities make you happy?
+         
+       <label class="line"><input type="checkbox" checked class="inline" value="1">Hiking alone in the mountains</label>
+       <label class="line"><input class="inline"  type="checkbox" value="2">Spending time with family and friends</label>
+       <label class="line"><input class="inline" type="checkbox" id="" value="3">Gaming</label>
+       <label class="line"><input class="inline" type="checkbox" value="4">Sleeping or Eating</label>
+       <label class="line"><input class="inline" type="checkbox" value="5">Reading Books</label>
+       <label class="line"><input class="inline" type="checkbox" value="6"> Sports</label>
+       <label class="line"><input class="inline" type="checkbox" value="7">Nothing</label>
+       </fieldset>
+       <label class= "inline"for="comments">Tell us how what you would do to be happy<textarea id="comments"></textarea>
+       </label>
+
+       <input id="submit" type="submit" value="Submit" />
+
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+.inline{
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+  margin-bottom:10;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 50%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
+
+fieldset {
+  border: none;
+  padding: 0.5rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+select{
+  margin-bottom: 20;
+}
+
+.line{
+  display:inline-block;
+  width:100%;
+  padding-bottom:0;
+  margin-bottom:-5;
+  vertical-align: middle;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.inline {
+  display: inline-block;
+  width: unset;
+  margin: 0 0.5em 0 0;
+
+}
+
+
+
+
+** end of undefined **
+

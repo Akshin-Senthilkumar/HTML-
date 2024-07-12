@@ -1,0 +1,219 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gym Straps</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main>
+<header id="header">Gym Straps
+<img src="https://www.gymreapers.com/cdn/shop/articles/do_you_need_lifting_straps.jpg?v=1689874843&width=1400" id="header-img" alt="Gym -strap">
+<nav id="nav-bar">
+<a id="beginner" class="nav-link" href="#Beginner">Beginner straps Guide</a>
+<a id="Intermediate" class="nav-link" href="#Intermediate">Intermediate Lifting Guide</a>
+<a id="Pro" class="nav-link" href="#Pro"> Pro Bodybuilder guide</a>
+</nav>
+</header>
+<div id="Beginner">
+<h1>Beginner Guide</h1>
+<img src="https://www.morgansports.com.au/assets/webshop/cms/31/1131.jpg?1641179783" alt="wrapping style">
+Read more about how to learn to use lifting straps effectively <a href="https://www.morgansports.com.au/A-Beginners-Guide-to-Wrist-Straps-for-Weightlifting">here</a>
+</div>
+<div id="Intermediate">
+<h1>Intermediate Guide</h1>
+<img src="https://www.tuffwraps.com/cdn/shop/articles/man-using-lifting-straps-for-deadlift_2500x.jpg?v=1691453395" alt="Deadlift">
+See how to deadlift <a href="https://torokhtiy.com/blogs/guides/how-to-use-lifting-straps">here</a>
+</div>
+<div id="Pro">
+<h1> Pro Bodybuilders Guide</h1>
+<img src="https://www.gymreapers.com/cdn/shop/articles/Do_wrist_wraps_help_you_lift_heavier_00505eb9-66bc-4857-841d-0ed296cf3386.jpg?v=1677608939&width=2048" alt="Benching">
+Bench press more with <a href="https://blog.warmbody-coldmind.com/guides/belt-for-bench-press/">lifting straps</a>
+</div>
+
+<video id="video" src="https://youtu.be/vo6U5MKE6zA"></video>
+<form action="https://www.freecodecamp.com/email-submit" id="form">
+<label>Email:
+<input required placeholder="Enter you email" type="email" name="email" id="email"></label>
+<input type="submit" id="submit" value="Submit">
+</form>
+</main>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure the nav-bar is always at the top of the viewport */
+#nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000; /* Ensure it stays on top of other elements */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Flexbox for the header and main content sections */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px; /* To avoid overlap with fixed nav-bar */
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#header-img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+
+#Beginner, #Intermediate, #Pro {
+    margin: 20px 0;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+#Beginner img, #Intermediate img, #Pro img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    margin: 10px 0;
+}
+
+/* Flexbox for the form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 400px;
+}
+
+label {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Media query to adjust layout on smaller screens */
+@media (max-width: 768px) {
+    #nav-bar {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        margin: 5px 0;
+    }
+
+    #header-img {
+        max-width: 100%;
+    }
+
+    #Beginner img, #Intermediate img, #Pro img {
+        max-width: 100%;
+    }
+
+    input[type="email"] {
+        max-width: 100%;
+    }
+
+    input[type="submit"] {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    #nav-bar {
+        padding: 5px 0;
+    }
+
+    .nav-link {
+        margin: 3px 0;
+        font-size: 14px;
+    }
+
+    form {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    input[type="email"], input[type="submit"] {
+        font-size: 14px;
+    }
+}
+
+
+** end of undefined **
+
